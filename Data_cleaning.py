@@ -24,9 +24,10 @@ def Total_clean(train,test):
             print('\n Time taken: %i hours %i minutes and %s seconds.' %
                   (thour, tmin, round(tsec, 2)))
 
-    # Data processing was done as in Bojan's fork of the original script:
+    # Data processing incorporated the following two kernels:
     # https://www.kaggle.com/tunguz/logistic-regression-with-words-and-char-n-grams
-
+    # https://www.kaggle.com/prashantkikani/pooled-gru-with-preprocessing/code
+    
     class_names = ['toxic', 'severe_toxic', 'obscene', 'threat', 'insult', 'identity_hate']
 
     
