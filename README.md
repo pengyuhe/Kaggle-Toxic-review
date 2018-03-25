@@ -11,7 +11,10 @@ The code is implemented in Keras, with GPU tensorflow backend. Necessary package
 Modeling data are from: https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
 
 I used four pre-trained word embeddings. 
+
 fastText crawl-300d-2M.vec. https://github.com/facebookresearch/fastText/blob/master/docs/english-vectors.md
+
+
 glove crawl 300d, glove twitter 300d, glove wiki 300d, https://nlp.stanford.edu/projects/glove/
 
 All the input files and model parameters are controlled by config.json. Before running the code, the config.json must be modified appropriately.
