@@ -26,7 +26,7 @@ Since this is an sentiment classification task, words with strong emotion are im
 The code is in Data_cleaning.py. Cleaning the data before running are strongly recommended.
 
 # Run the code
-All the input files and model parameters are controlled by config.json. Before running the code, the config.json must be modified appropriately.The file is quite elf explanatory
+All the input files and model parameters are controlled by config.json. Before running the code, the config.json must be modified appropriately. The file is quite self explanatory.
 
 With an appropriate config.json, you can do as simple as 
 
