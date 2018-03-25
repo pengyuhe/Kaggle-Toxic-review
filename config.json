@@ -1,0 +1,51 @@
+{
+    "feature_dic":{
+        "Attention":1,
+        "RNN_maxpool":1,
+        "Capsule":1,
+        "RNN_CNN_conv1d":1,
+        "CNN2d":1,
+        "DPCNN":1
+    },
+
+    "para_dic":{
+        "MAX_SEQUENCE_LENGTH":150,
+        "MAX_NB_WORDS":200000,
+
+        "L1_reg":0.0,
+        "spatial_dropout":0.05,
+        "num_lstm":300,
+    
+        "dense_num":100,
+        "dense_act":"relu",
+        "dense_dropout":0.1,
+
+        "DPCNN_filter_nr":64,
+        "DPCNN_filter_size" : 3,
+        "DPCNN_max_pool_size":3,
+        "DPCNN_max_pool_strides":2,
+
+        "CNN2d_filter_sizes":[1,2,3,5],
+        "CNN2d_num_filters":32,
+
+        "VALIDATION_SPLIT":0.05
+    },
+
+    "data_dic":{
+        "data_path":"../input/data/",
+        "train_file": "train_clean.csv",
+        "test_file": "test_clean.csv",
+        "submission_file":"sample_submission.csv",
+       
+        "raw_train_file":"train_raw.csv",
+        "raw_test_file":"test_raw.csv",
+
+
+        "embed_path":"../input/embedding/",
+        "embed_file":["twitter_200d.txt","glove.6B.300d.txt","glove.840B.300d.txt","crawl-300d-2M.vec"],
+        "embed_dim":[200,300,300,300]
+        
+        
+         
+    }
+}
